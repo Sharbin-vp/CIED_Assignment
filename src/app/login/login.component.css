@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .imgbox{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+section .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 1;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-style:ridge;
+}
+.lang-menu .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.kidlink.org/icons/f0-ar.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+    background-image: url(https://www.kidlink.org/icons/f0-ar.gif);
+}
+
+.en:before {
+    background-image: url(https://www.kidlink.org/icons/f0-ar.gif);
+}
+.fr:before {
+    background-image: url(https://www.kidlink.org/icons/f0-ar.gif);
+}
+
+.ar:before {
+    background-image: url(https://www.kidlink.org/icons/f0-ar.gif);
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+.divallign{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.loginDiv{
+    /* background-color: aquamarine; */
+    padding: 30px;
+}
+.form-row{
+/* background-color: aqua; */
+width: 400px;
+border-radius: 10px;
+margin-left: 25%;
+}
+.form-control{
+    width: 400px;
+    height: 50px;
+    
+}
+#forgottext{
+    float: right;
+    margin-right: 27%;
+    margin-top: 1.1%;
+}
+#checkBx{
+    margin-left: 25%;
+    margin-top: 1.5%;
+}
+button{
+    width: 400px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+#CreateActTxt{
+    margin-left: 40%;
+}
+h6{
+    margin-bottom: 4%;
+    color: rgb(105, 103, 103);
+    margin-top: 1%;
+    margin-left: 26.5%;
+    
+}
+h1{
+    margin-left: 26.5%;
+    margin-top: 18%;
+}

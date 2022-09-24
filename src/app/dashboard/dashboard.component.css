@@ -1,0 +1,129 @@
+*{
+     margin: 0;
+    padding: 0;
+    outline: none;
+    border: none; 
+    text-decoration: none; 
+      box-sizing:content-box; 
+} 
+body{
+    background: #dfe9f5;
+}
+.container{
+    display: flex;
+    
+
+}
+nav{
+    position: relative;
+    top:0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 30%;
+    /* width: 280px; */
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1) ;
+}
+h1{
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.dashtxt{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: larger;
+}
+#liItmOne{
+    margin-top: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#liItmTwo{
+    margin-top:500px;
+}
+.accountRef{
+    background-color: rgb(229, 233, 233);
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+display: flex;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#logoutLi{
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style: none;
+    position: absolute;
+    /* bottom: 0; */
+    
+}
+.main{
+    position: relative;
+    /* background-color: rgb(14, 65, 65); */
+    padding: 20px;
+    width:100%;
+    
+
+  
+}
+.maintop{
+    display: flex;
+    width: 100%;
+   
+
+}
+.info{
+    width: 330px;
+    height: 30px;
+    border-radius: 30px;
+    border-style:groove;
+    padding: 3px;
+    font-size: medium;
+    margin: 5px;
+}
+.col{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.tagOne{
+    font-weight:0;
+    font-size: 15px;
+    color: #fff;
+}
+.tagTwo{
+    font-size: 30px;
+    color: #fff;
+}
+.tagThree{
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.tagFour{
+    font-size: 12px;
+    margin-left: 5px;
+    color: aliceblue;
+}
+#btn{
+    border-radius: 15px;
+    font-weight: bold;
+    border: black;
+    outline: auto;
+    padding: 6px;
+}
